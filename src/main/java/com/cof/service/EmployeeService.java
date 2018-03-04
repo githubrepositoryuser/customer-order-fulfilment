@@ -1,8 +1,8 @@
-package com.demo.service;
+package com.cof.service;
 
 import java.util.List;
 
-import com.demo.model.Employee;
+import com.cof.model.Employee;
 
 public interface EmployeeService {
 

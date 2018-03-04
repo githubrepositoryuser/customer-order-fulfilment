@@ -1,4 +1,4 @@
-package com.demo.repository;
+package com.cof.repository;
 
 public class JdbcDataSource {
 

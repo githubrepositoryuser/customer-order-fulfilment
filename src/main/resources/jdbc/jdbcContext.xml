@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="jdbcDataSource" class="com.demo.repository.JdbcDataSource" scope="prototype">
+	<bean id="jdbcDataSource" class="com.cof.repository.JdbcDataSource" scope="prototype">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
 		<property name="url" value="$SRVC_CONF{keymgmt.db.url}"/>
 		<property name="username" value="$SRVC_CONF{keymgmt.db.username}"/>

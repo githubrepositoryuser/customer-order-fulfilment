@@ -1,4 +1,4 @@
-package com.demo.model;
+package com.cof.model;
 
 public class Employee {
     private int id;

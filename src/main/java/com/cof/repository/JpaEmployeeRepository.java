@@ -1,11 +1,11 @@
-package com.demo.repository;
+package com.cof.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.demo.model.Employee;
+import com.cof.model.Employee;
 
 @Repository("employeeRepository")
 public class JpaEmployeeRepository implements EmployeeRepository {

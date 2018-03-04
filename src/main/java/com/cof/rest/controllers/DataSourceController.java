@@ -1,4 +1,4 @@
-package com.demo.controller;
+package com.cof.rest.controllers;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.demo.repository.JdbcDataSource;
+import com.cof.repository.JdbcDataSource;
 
 @RestController
 public class DataSourceController implements ApplicationContextAware {

@@ -1,8 +1,8 @@
-package com.demo.repository;
+package com.cof.repository;
 
 import java.util.List;
 
-import com.demo.model.Employee;
+import com.cof.model.Employee;
 
 public interface EmployeeRepository {
 
