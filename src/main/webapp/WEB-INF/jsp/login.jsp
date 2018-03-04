@@ -8,10 +8,12 @@
 <body>
 <%@ include file="./header.jsp" %>
 <h2>::Login::</h2>
-<label>User Name</label> <input type ="text" /><br>
-<label>Password</label>  <input type="password" /><br>
-<input type="submit" value="Login" />
 
+<form method="post" action="./handleLogin">
+<label>User Name</label> <input type ="text" name="name"/><br>
+<label>Password</label>  <input type="password" name="password"/><br>
+<input type="submit" value="Login" />
+</form>
 <br><br><br><br>
 <%@ include file="./footer.jsp" %>
 </body>
