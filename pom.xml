@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<m2eclipse.wtp.contextRoot>spring-mvc-demo</m2eclipse.wtp.contextRoot>
+		<m2eclipse.wtp.contextRoot>customer-order-fulfilment</m2eclipse.wtp.contextRoot>
 		<!-- <jdk.version>1.7</jdk.version> -->
 		<log4j.version>1.2.17</log4j.version>
 	</properties>
@@ -54,7 +54,7 @@
 	</dependencies>
 
 	<build>
-	    <finalName>SpringMvcDemo</finalName>
+	    <finalName>CustomerOrderFulfilment</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
